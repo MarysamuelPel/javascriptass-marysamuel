@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary Samuel JS Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="about">
+        <div class="wrapper">
+            <h1>ABOUT ME</h1>
+            <div class="img-area">
+                <div class="single-img"><img src="MARY'S PICTURE.jpg" alt=""></div>
+            </div>
+            <div class="text-box">
+            <P>Mary Samuel is a frontend Developer and a graphics designer. she works remotely on the online space.
+                Mary Samuel believes that Tech is the future, that is the main reason she delved into Tech from her 
+                former medical field.
+                She holds a Bachelors Degree in Biochemistry from the prestigious Olabisi Onabanjo University.</P>
+        </div>
+            <h2 id="js">I am currently learning HTML and CSS</h2>
+             <button id="dream" onclick="change_text()">Update me</button>
+             <script type="text/javascript">
+                function change_text()
+                {
+                    document.getElementById("js").innerHTML="I am currently learning Javascript."
+                }
+             </script>
+    </section>
+</body>
+</html>
